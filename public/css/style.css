@@ -130,7 +130,7 @@ body {
     height: 66px;
   }
   
-  .mobile {
+  footer {
     height: 54px;
     width: calc(100% - 40px);
     background-color: white;
@@ -309,6 +309,9 @@ body {
   }
   .sobre :nth-child(2) {
     margin-top: 18px;
+  }
+  strong:hover, img:hover, a:hover, .seguir:hover, .nome-instagram:hover, .sobre:hover, ion-icon:hover, .ver:hover{
+    cursor: pointer;
   }
 
   @media (max-width: 935px) {
